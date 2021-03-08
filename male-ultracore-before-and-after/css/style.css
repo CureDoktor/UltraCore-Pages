@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Times New Roman;
+  src: url(/fonts/times.ttf);
+}
+.wrapper {
+  background-color: #eeeeee;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Times New Roman";
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.c1 {
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1200px;
+  padding-bottom: 50px;
+}
+.writtenBy {
+  font-size: 1rem;
+  padding-top: 27px;
+  color: #a8a8a8;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+
+.navbarText {
+  color: #000000;
+  font-family: "Impact";
+  letter-spacing: -2px;
+  font-size: 2.5rem;
+}
+.navbarBlueText {
+  color: #2b73b0;
+}
+.r1 {
+  padding-top: 10px;
+}
+.navbar-nav {
+  display: inline-block;
+}
+ul {
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+li {
+  margin: 0 10px;
+  display: inline-block;
+  padding: 3px 15px;
+}
+a {
+  color: #000000;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.r2 {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+a:hover {
+  background-color: #2b73b0;
+  color: white;
+}
+.copy_right {
+  color: #a6a6a6;
+  font-size: 14px;
+  text-align: right;
+}
+.site-footer a {
+  font-size: 16px;
+  margin-right: 36px;
+  text-decoration: none;
+  color: #a6a6a6;
+  font-weight: 400;
+}
+.c2 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.disclaimer {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.firstPicRectangle {
+  width: 100%;
+}
+.textField {
+  text-align: center;
+  color: #000000;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+.textFieldOne {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  font-weight: 600;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.textFieldTwo {
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+.textField4 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.line {
+  display: block;
+  margin: auto;
+}
+.r3 {
+  padding-top: 30px;
+}
+.r4 {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.textField1 {
+  padding-bottom: 35px;
+}
+.textField1One {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.textField1Two {
+  font-size: 1.1rem;
+}
+.videoHeaderText {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding-bottom: 5px;
+}
+.textField2One {
+  font-size: 1.1rem;
+}
+.textField2 {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.textField3 {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.textField3One {
+  font-weight: 700;
+  font-size: 1.85rem;
+}
+.blueText {
+  padding-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2b73b0;
+}
+.contentDiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+.contentBefore {
+  line-height: 1rem;
+  font-size: 1.1rem;
+}
+.contentBefore::before {
+  content: " \2023";
+  font-size: 1.3rem;
+  color: #2b73b0;
+  margin-right: 5px;
+}
+.elite {
+  padding-bottom: 16px;
+}
+.beforeButton {
+  padding-bottom: 30px;
+}
+.button {
+  margin: 0 auto;
+  padding: 5px;
+  width: 100%;
+}
+.youCanOrder {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.lastTextField {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.aButton {
+  width: 40%;
+  margin: auto;
+  display: block;
+}
+.rowFooter {
+  padding-bottom: 40px;
+}
+@media only screen and (max-width: 765px) {
+  .navbarText {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .textFieldOne {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .textFieldTwo {
+    font-size: 1.2rem;
+  }
+  .textField1One {
+    font-size: 1.4rem;
+  }
+  .textField1Two {
+    font-size: 0.9rem;
+  }
+  .videoHeaderText {
+    font-size: 1.4rem;
+  }
+  body {
+    font-size: 0.9rem;
+  }
+  .textField2One {
+    font-size: 0.9rem;
+  }
+  .textField3One {
+    font-size: 1.4rem;
+  }
+  .blueText {
+    font-size: 1.1rem;
+  }
+  .c1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .contentBefore {
+    font-size: 0.9rem;
+  }
+  .contentDiv {
+    padding-left: 10px;
+  }
+  .aButton {
+    width: 60%;
+  }
+  .disclaimer {
+    font-size: 0.9rem;
+  }
+  .line {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aButton {
+    width: 90%;
+  }
+  .textField3 {
+    padding-bottom: 0px;
+  }
+  .textField {
+    padding-bottom: 40px;
+  }
+  .footer1 {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .copy_right {
+    text-align: center;
+  }
+}
